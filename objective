@@ -1,0 +1,20 @@
+#!/usr/bin/env coffee
+
+require('nez').objective 'Anvil',
+
+    nimbal:      'https://localhost:10101'
+
+    class:       'Web Application'
+
+    description: """
+
+        Community Application
+        ---------------------
+
+        An aggrigation node for [Nimbal] entities with
+        a common [Objective].
+
+        https://github.com/nomilous/eo/tree/master/.metadata
+
+    """, (requirement, notice) -> 
+
